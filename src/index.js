@@ -8,10 +8,14 @@ import * as serviceWorker from './serviceWorker';
 import Logo from './components/logo';
 import StaticNav from './components/StaticNav';
 import SlidingNav from './components/SlidingNav';
+import smoothScrollBar from './components/smoothScrollBar'
+import 'tachyons';
 
 
 ReactDOM.render(
   <React.StrictMode>
+  	<Logo />
+  	<smoothScrollBar />
   	<StaticNav />
   	<SlidingNav />
     <BlogStart />

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import './nav-bar.css';
 
-class StaticNav extends React.Component {
+class StaticNav extends Component {
   render() {
     return (
       <nav className="navbar">
@@ -15,16 +15,16 @@ class StaticNav extends React.Component {
           </label>
             <ul className="menu">
                 <li>
-                    <a className="link" href="../index.html">Home</a>
+                    <a className="link" href="">Home</a>
                 </li>
                 <li>
-                    <a className="link" href="#">Merch</a>
+                    <a className="link" href="">Merch</a>
                 </li>
                 <li>
-                    <a className="link" href="about.html">About</a>
+                    <a className="link" href="">About</a>
                 </li>
                 <li>
-                    <a className="link" href="#">Contact</a>
+                    <a className="link" href="">Contact</a>
                 </li>
             </ul>
       </nav>

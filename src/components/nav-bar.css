@@ -6,8 +6,7 @@ html {
 body{
     margin:auto 0;
 }
-/*==================================================================*/
-/*LOGO OBSERVER TARGETS */
+
 .logoChangeBefore{
       opacity: 0;
       transition: .3s ease;
@@ -16,8 +15,7 @@ body{
       opacity: 1;
       transition: .3s ease;
 }
-/*==================================================================*/
-/*NORMAL NAV BAR - hamburger hidden*/
+
 .navbar {
     display: flex;
     width: 100%;
@@ -37,8 +35,7 @@ body{
 .menu li{
     padding: 20px 20px;
 }
-/*==================================================================*/
-/*SLIDER NAV BAR INCLUDING HAMBURGER MENU LOGO AND SCROLL LINKS*/
+
 #navSlider{
     position: fixed;
     z-index:500;
@@ -115,8 +112,7 @@ body{
 #toggleSlider {
     display: none;
 }
-/*==================================================================*/
-/*UNIVERSAL LINK HOVER & HAMBURGER*/
+
 a:link, a:visited {
     text-decoration: none;
     color: white;
@@ -176,8 +172,7 @@ a.link:hover, a.link:active {
     background-color: white;
     transition: top linear 120ms, transform 120ms ease 200ms;
 }
-/*==================================================================*/
-/* NAVBAR SIZING MEDIUM-SMALL SCREENS. HAMBURGER ACTIVE MENU HIDDEN */
+
 @media screen and (max-width:768px) {
     .navbar #toggle {
         display: inline-block;
@@ -209,9 +204,7 @@ a.link:hover, a.link:active {
         display: none;
     }
 }
-/*==================================================================*/
-/*EFFECT CLASSES*/
-/*Hover Overline CLass*/
+
 .hvr-overline-from-center {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
