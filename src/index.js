@@ -1,26 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import BlogStart from './components/BlogStart'
-import BellaBlog from './components/BellaBlog'
-import LandscapeBlog from './components/LandscapeBlog'
+import Blog from './Blog.js';
 import * as serviceWorker from './serviceWorker';
-import Logo from './components/logo';
-import StaticNav from './components/StaticNav';
-import SlidingNav from './components/SlidingNav';
-import smoothScrollBar from './components/smoothScrollBar'
+import { blogData } from './blogData'
 import 'tachyons';
 
 
 ReactDOM.render(
   <React.StrictMode>
-  	<Logo />
-  	<smoothScrollBar />
-  	<StaticNav />
-  	<SlidingNav />
-    <BlogStart />
-    <BellaBlog />
-    <LandscapeBlog />
+  	<Blog  />
   </React.StrictMode>,
   document.getElementById('root')
 );
