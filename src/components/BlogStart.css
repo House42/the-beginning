@@ -1,0 +1,36 @@
+.large0-0 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.med1-0 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.med2-0 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.long3-0 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+.large4-0 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 14;
+}
+.med5-0 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 11;
+    grid-row-end: 14;
+}

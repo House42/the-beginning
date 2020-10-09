@@ -1,0 +1,36 @@
+/*LOGO BY NAV BAR*/
+.logo, #logoSlider {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.logo img{
+    width: auto;
+    height: 100%; 
+}
+.logoSlider {
+    position:fixed;
+    z-index:1000;
+    opacity:1;
+    transition: 1s ease-in-out;
+}
+#logoHidden {
+    position: absolute;
+    left: -500px;
+    height: 100%; 
+}
+#logoSlider{
+    left: -500px;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: .2s;
+    animation: slide 1s forwards;
+    animation-delay: .2s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+@keyframes slide {
+    100% { left: 0; }
+}

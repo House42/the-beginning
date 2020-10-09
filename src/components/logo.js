@@ -1,14 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
+import './Logo.css';
 
-class logo extends React.Component {
+class logo extends Component {
   render() {
     return (
       <div>
         <div className="logoSlider">
-          <img id="logoHidden" src="../images/logo/1logo.png" />
+          <img id="logoHidden" src="../images/logo/1logo.png" alt='Logo' />
         </div>
         <div className="logo">
-          <img src="../images/logo/7logo.png" />
+          <img src="../images/logo/7logo.png" alt='Logo'/>
         </div>
       </div>
     );

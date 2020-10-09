@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import BlogStart from './components/BlogStart'
+import BellaBlog from './components/BellaBlog'
+import LandscapeBlog from './components/LandscapeBlog'
 import * as serviceWorker from './serviceWorker';
+import Logo from './components/logo';
+import StaticNav from './components/StaticNav';
+import SlidingNav from './components/SlidingNav';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  	<StaticNav />
+  	<SlidingNav />
+    <BlogStart />
+    <BellaBlog />
+    <LandscapeBlog />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,55 @@
+/* LANDSCAPE */
+.small1-2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.med2-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.landscape4-2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.landscape5-2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 10;
+}
+.large6-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 10;
+}
+.large7-2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 10;
+    grid-row-end: 14;
+}
+.med8-2 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 14;
+}
+.landscape9-2 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 10;
+    grid-row-end: 12;
+}
+.landscape10-2 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 14;
+}
